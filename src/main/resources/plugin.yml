@@ -1,0 +1,14 @@
+name: Plugin-JJK
+version: 1.0.0
+main: me.pluginjjk.JjkTechniquesPlugin
+api-version: '1.21'
+author: Plugin-JJK
+commands:
+  jjk:
+    description: JJK techniques command
+    usage: /jjk help
+    permission: pluginjjk.use
+permissions:
+  pluginjjk.use:
+    description: Allows using JJK techniques
+    default: true
