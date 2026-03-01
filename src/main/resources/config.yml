@@ -1,0 +1,40 @@
+# Главный заголовок, который игрок увидит при входе.
+# Поддерживаются цвета Minecraft (& и §).
+title: "§5DE §fSquad"
+
+# Случайный subtitle выбирается из списка ниже.
+subtitles:
+  - "Добро пожаловать!"
+  - "Ты попал в лав-белый хаос!"
+  - "Готов к приключениям?"
+  - "DE Squad уже ждал именно тебя!"
+
+# Настройка времени title (в тиках).
+title-settings:
+  fade-in: 10
+  stay: 60
+  fade-out: 20
+
+# Звук при входе игрока.
+# Примеры: ENTITY_PLAYER_LEVELUP, BLOCK_NOTE_BLOCK_PLING
+join-sound: "ENTITY_PLAYER_LEVELUP"
+join-sound-volume: 1.0
+join-sound-pitch: 1.0
+
+# Частицы вокруг игрока при входе.
+# Примеры: HEART, FIREWORK, TOTEM
+join-particle: "HEART"
+join-particle-count: 24
+
+# Случайные сообщения о входе (заменяется %player%).
+join-messages:
+  - "Игрок %player% только что телепортировался на DE Squad!"
+  - "Ого, %player% ворвался в игру как вихрь!"
+  - "BEHOLD %player% — легенда DE Squad появилась!"
+  - "%player% в игре. Хаос официально начался!"
+
+# Случайные сообщения о выходе (заменяется %player%).
+quit-messages:
+  - "%player% ушёл в закат... но обещал вернуться!"
+  - "%player% вышел из игры. Сервер стал чуточку тише."
+  - "%player% телепортировался в реальную жизнь!"

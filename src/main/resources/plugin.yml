@@ -1,0 +1,6 @@
+name: DESquadWelcome
+version: '1.0.0'
+main: com.de.squad.welcome.Main
+author: Hazer_2_0
+api-version: '1.16'
+description: Показывает стильный welcome title, звук, частицы и смешные join/quit сообщения.
