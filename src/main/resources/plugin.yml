@@ -1,0 +1,18 @@
+name: HazerHotPlug
+version: 1.0.0
+main: me.hazer.hotplug.Main
+author: Hazer_2_0
+api-version: '1.21'
+description: Hot plugin loader for Paper servers.
+commands:
+  hotplugins:
+    description: Manage hot plugin operations
+    usage: /hotplugins [reload|load|unload|list|scan]
+    permission: hazer.hotplug.use
+permissions:
+  hazer.hotplug.use:
+    default: op
+    description: Allows the usage of the hotplugins command
+  hazer.hotplug.notify:
+    default: op
+    description: Receive notifications about pending plugins
