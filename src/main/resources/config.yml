@@ -1,0 +1,6 @@
+auto-load: true
+watch-plugins-folder: true
+notify-admins: true
+enable-gui: true
+scan-on-startup: true
+watcher-poll-interval-ticks: 20
